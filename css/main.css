@@ -1,0 +1,20 @@
+.h100 {
+    width: 100%;
+    height: 800px;
+}
+
+.map path {
+    fill: rgb(255, 255, 255);
+    stroke: rgb(4, 139, 133);
+    stroke-width: 2px;
+    transition: 1s;
+}
+
+.map path:hover {
+    fill: rgb(177, 243, 226);
+    cursor: pointer;
+}
+
+.map-active{
+    fill: rgb(177, 243, 226);
+}
